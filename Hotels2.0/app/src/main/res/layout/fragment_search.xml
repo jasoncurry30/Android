@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/title_serch"
+            android:textColor="@color/main"
+            android:textSize="@dimen/title_text_size" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin12"
+            android:layout_marginRight="@dimen/activity_horizontal_margin12"
+            android:layout_toLeftOf="@+id/tv_search"
+            android:layout_toRightOf="@+id/iv_back"
+            android:background="@drawable/shape_gray">
+
+
+            <ImageView
+                android:id="@+id/iv_serach"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin12"
+                app:srcCompat="@drawable/ic_search_gray_24dp" />
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/iv_serach"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="酒店名等..."
+                android:paddingLeft="@dimen/activity_horizontal_margin6"
+                android:paddingRight="@dimen/activity_horizontal_margin6"
+                android:textColor="#969696"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_gray" />
+
+    <!--搜索内容-->
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin12"
+        android:layout_marginRight="@dimen/activity_horizontal_margin12"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            //热搜1
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin12"
+                android:layout_marginTop="@dimen/activity_vertical_margin12"
+                android:text="@string/search_hot"
+                android:textColor="@color/text_black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <com.jalen.hotels.widget.NestingGridView
+                android:id="@+id/ngv_hot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:horizontalSpacing="10dp"
+                android:numColumns="4"
+                android:scrollbars="none"
+                android:verticalSpacing="10dp" />
+
+            //地铁站2
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin12"
+                android:layout_marginTop="@dimen/activity_vertical_margin12"
+                android:text="@string/search_trafic"
+                android:textColor="@color/text_black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <com.jalen.hotels.widget.NestingGridView
+                android:id="@+id/ngv_trafic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:horizontalSpacing="10dp"
+                android:numColumns="4"
+                android:scrollbars="none"
+                android:verticalSpacing="10dp" />
+
+            //景点3
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin12"
+                android:layout_marginTop="@dimen/activity_vertical_margin12"
+                android:text="@string/search_landscape"
+                android:textColor="@color/text_black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <com.jalen.hotels.widget.NestingGridView
+                android:id="@+id/ngv_landscape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:horizontalSpacing="10dp"
+                android:numColumns="4"
+                android:scrollbars="none"
+                android:verticalSpacing="10dp" />
+
+            //高校4
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin12"
+                android:layout_marginTop="@dimen/activity_vertical_margin12"
+                android:text="@string/search_business"
+                android:textColor="@color/text_black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <com.jalen.hotels.widget.NestingGridView
+                android:id="@+id/ngv_business"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin12"
+                android:horizontalSpacing="10dp"
+                android:numColumns="4"
+                android:scrollbars="none"
+                android:verticalSpacing="10dp" />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--搜索内容-->
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:scrollbars="none" />
+
+
+</LinearLayout>

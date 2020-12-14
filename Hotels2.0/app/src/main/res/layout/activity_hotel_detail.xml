@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color1"
+    android:orientation="vertical">
+
+    <!--顶部内容-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+
+
+        <ImageView
+            android:id="@+id/iv_hotel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hotel1" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin12"
+            android:layout_marginTop="@dimen/activity_vertical_margin12"
+            android:alpha="0.2"
+            android:background="@drawable/shape_round_gray" />
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin12"
+            android:layout_marginTop="@dimen/activity_vertical_margin12"
+            android:alpha="0.7"
+            android:src="@drawable/alpha_back" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/activity_vertical_margin12"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin12"
+            android:text="南京威斯汀酒店"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/white">
+
+
+                <ImageView
+                    android:id="@+id/iv_tel"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/a_c" />
+
+                <View
+                    android:id="@+id/line1"
+                    android:layout_width="@dimen/line_height"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/iv_tel"
+                    android:background="@color/line_gray" />
+
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin12"
+                    android:layout_marginTop="@dimen/activity_vertical_margin6"
+                    android:layout_toLeftOf="@+id/line1"
+                    android:gravity="center_vertical|left"
+                    android:singleLine="true"
+                    android:text="中央路201号(近1号线玄武门地铁站 玄武湖)"
+                    android:textColor="@color/text_black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_address"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin12"
+                    android:layout_marginTop="@dimen/activity_vertical_margin6"
+                    android:layout_toLeftOf="@+id/line1"
+                    android:gravity="center_vertical|left"
+                    android:singleLine="true"
+                    android:text="距离984米"
+                    android:textColor="@color/text_gray"
+                    android:textSize="14sp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="@dimen/activity_vertical_margin10"
+                android:background="@color/white">
+
+
+                <ImageView
+                    android:id="@+id/iv_safe"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/a_j" />
+
+                <View
+                    android:id="@+id/line2"
+                    android:layout_width="@dimen/line_height"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/iv_safe"
+                    android:background="@color/line_gray" />
+
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin12"
+                    android:layout_marginTop="@dimen/activity_vertical_margin6"
+                    android:layout_toLeftOf="@+id/line2"
+                    android:gravity="center_vertical|left"
+                    android:singleLine="true"
+                    android:text="2011年开业 2012年装修"
+                    android:textColor="@color/text_black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_tag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_time"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin12"
+                    android:layout_marginTop="@dimen/activity_vertical_margin6"
+                    android:layout_toLeftOf="@+id/line2"
+                    android:gravity="center_vertical|left"
+                    android:singleLine="true"
+                    android:text="环境优美"
+                    android:textColor="@color/text_gray"
+                    android:textSize="14sp" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_height"
+                android:layout_marginTop="@dimen/activity_vertical_margin10"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/activity_horizontal_margin12"
+                android:text="酒店预订"
+                android:textColor="@color/text_gray"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <com.jalen.hotels.widget.NestingListView
+                android:id="@+id/ngv_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/line_height"
+                android:divider="@color/line_gray"
+                android:dividerHeight="@dimen/line_height"
+                android:scrollbars="none"
+                tools:listitem="@layout/list_item_hotel_type" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_height"
+                android:layout_marginTop="@dimen/activity_vertical_margin10"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/activity_horizontal_margin12"
+                android:text="用户评论"
+                android:textColor="@color/text_gray"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <com.jalen.hotels.widget.NestingListView
+                android:id="@+id/ngv_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/line_height"
+                android:divider="@color/line_gray"
+                android:dividerHeight="@dimen/line_height"
+                android:scrollbars="none"
+                tools:listitem="@layout/list_item_hotel_comment" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

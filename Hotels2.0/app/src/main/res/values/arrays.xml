@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--模拟数据:顶部banner列表  数量不限-->
+    <string-array name="banners_imgs">
+        <item>http://odyiysqha.bkt.clouddn.com/banner2.jpg</item>
+        <item>http://odyiysqha.bkt.clouddn.com/banner4.png</item>
+        <item>http://odyiysqha.bkt.clouddn.com/banner5.jpg</item>
+    </string-array>
+
+    <!--模拟数据:酒店的宣传图片-->
+    <string-array name="hotels_imgs">
+        <item>http://odyiysqha.bkt.clouddn.com/hotel1.jpg</item>
+        <item>http://odyiysqha.bkt.clouddn.com/hotel2.jpg</item>
+        <item>http://odyiysqha.bkt.clouddn.com/hotel3.jpg</item>
+        <item>http://odyiysqha.bkt.clouddn.com/hotel4.jpg</item>
+        <item>http://odyiysqha.bkt.clouddn.com/hotel5.jpg</item>
+
+
+    </string-array>
+
+    <!--模拟数据:用户名-->
+    <string-array name="user_names">
+        <item>15088660000</item>
+        <item>15088660001</item>
+        <item>15088660002</item>
+        <item>15088660003</item>
+        <item>15088660004</item>
+    </string-array>
+
+    <!--模拟数据:酒店评论 数量不限-->
+    <string-array name="comment_contents">
+        <item>地理位置比较优越,酒店大堂很漂亮.</item>
+        <item>这里购物和饮食非常方便,门口就是地铁站.</item>
+        <item>虽然酒店开了几年,设施装修略老旧,但是服务和房间都让人非常舒服,入住期间还是用了酒店的健身房.</item>
+        <item>优点是地理位置还不错,官网价格好,枕头还蛮舒服.此外,装修不够高档,选择的豪华房看不出任何设计和豪华感.</item>
+        <item>托朋友的福,住过两次,第一次住楼顶,第二次在10楼,只能说应有尽有,最喜欢的还是它的浴缸.</item>
+
+
+
+    </string-array>
+
+    <!--模拟数据:酒店评论的发表时间 数量保持和上面评论一样-->
+    <string-array name="comment_time">
+        <item>2月28日</item>
+        <item>3月16日</item>
+        <item>4月9日</item>
+        <item>5月11日</item>
+        <item>9月8日</item>
+
+    </string-array>
+
+    <!--模拟数据:酒店名称 数量和顶部酒店图片保持一致-->
+    <string-array name="hotel_name">
+        <item>南京涵碧楼酒店</item>
+        <item>罗莱夏朵颐和公馆</item>
+        <item>南京绿地洲际酒店</item>
+        <item>南京汤山御庭臻品酒店</item>
+        <item>南京威斯汀酒店</item>
+
+    </string-array>
+
+    <!--模拟数据:酒店地址 数量和顶部酒店图片保持一致-->
+    <string-array name="hotel_address">
+        <item>扬子江大道208号</item>
+        <item>江苏路3号(近山西路)</item>
+        <item>中央路1号紫峰大厦内(近中山北路)</item>
+        <item>汤山镇泉韵路9号(近美泉路)</item>
+        <item>中央路201号(近1号线玄武门地铁站)</item>
+
+
+    </string-array>
+
+    <!--模拟数据:酒店开业装修时间  数量和顶部酒店图片保持一致-->
+    <string-array name="hotel_times">
+        <item>2017年开业 2017年装修</item>
+        <item>2013年开业 2013年装修</item>
+        <item>2010年开业 2010年装修</item>
+        <item>2011年开业 2011年装修</item>
+        <item>2011年开业 2011年装修</item>
+
+    </string-array>
+
+    <!--酒店更多信息 数量和顶部酒店图片保持一致-->
+    <string-array name="hotel_content">
+        <item>无线上网 停车场</item>
+        <item>无线上网 停车场</item>
+        <item>接送服务 行李寄存 餐厅</item>
+        <item>无线上网 接送服务</item>
+        <item>无线上网 停车场</item>
+    </string-array>
+
+
+    <!--酒店不同类型的房间图片-->
+    <string-array name="room_imgs">
+        <item>http://odyiysqha.bkt.clouddn.com/room1.png</item>
+        <item>http://odyiysqha.bkt.clouddn.com/room2.png</item>
+        <item>http://odyiysqha.bkt.clouddn.com/room3.png</item>
+        <item>http://odyiysqha.bkt.clouddn.com/room4.png</item>
+        <item>http://odyiysqha.bkt.clouddn.com/room5.png</item>
+        <item>http://odyiysqha.bkt.clouddn.com/room6.png</item>
+        <item>http://odyiysqha.bkt.clouddn.com/room7.png</item>
+        <item>http://odyiysqha.bkt.clouddn.com/room8.png</item>
+    </string-array>
+
+    <!--酒店不同类型的房间类型  数量和顶部酒店类型的房间图片一致-->
+    <string-array name="room_type">
+        <item>豪华双床房</item>
+        <item>豪华房</item>
+        <item>豪华大床房</item>
+        <item>行政大床房</item>
+        <item>行政双床房</item>
+        <item>行政俱乐部房</item>
+        <item>行政套房</item>
+        <item>行政房</item>
+    </string-array>
+    <!--酒店不同类型的房间价格 数量和顶部酒店类型的房间图片一致-->
+    <string-array name="room_price">
+        <item>876</item>
+        <item>984</item>
+        <item>1130</item>
+        <item>1278</item>
+        <item>1278</item>
+        <item>1483</item>
+        <item>1844</item>
+        <item>1480</item>
+    </string-array>
+
+    <!--酒店不同类型的房间大小 数量和顶部酒店类型的房间图片一致-->
+    <string-array name="room_tag">
+        <item>42㎡ | 双床</item>
+        <item>大床</item>
+        <item>42㎡ | 大床</item>
+        <item>42㎡ | 大床</item>
+        <item>42㎡ | 双床</item>
+        <item>超大</item>
+        <item>84㎡ | 双人床</item>
+        <item>大床</item>
+    </string-array>
+
+    <!--酒店的价格  数量和顶部酒店图片保持一致-->
+    <string-array name="hotel_price">
+        <item>2594</item>
+        <item>1304</item>
+        <item>1283</item>
+        <item>690</item>
+        <item>876</item>
+    </string-array>
+
+    <!--酒店的标签   数量和顶部酒店图片保持一致-->
+    <string-array name="hotel_tag">
+        <item>高大上</item>
+        <item>服务热情</item>
+        <item>位置好</item>
+        <item>房间大</item>
+        <item>风景好</item>
+    </string-array>
+
+    <!--搜索的地名类别-->
+    <string-array name="search_types">
+        <item>@string/search_hot</item>
+        <item>@string/search_business</item>
+        <item>@string/search_trafic</item>
+        <item>@string/search_landscape</item>
+    </string-array>
+
+    <!--热门搜索-->
+    <string-array name="search_hot">//热搜1
+        <item>新街口</item>
+        <item>南京南站</item>
+        <item>南京站</item>
+        <item>秦淮河</item>
+        <item>南京博物院</item>
+        <item>中山陵</item>
+        <item>鸡鸣寺</item>
+        <item>玄武湖</item>
+
+    </string-array>
+
+    <!--地铁站-->
+    <string-array name="search_trafic">//交通枢纽改成地铁站2
+        <item>南京南站</item>
+        <item>南京站</item>
+        <item>禄口机场</item>
+        <item>大行宫</item>
+        <item>新街口</item>
+        <item>夫子庙</item>
+        <item>鸡鸣寺</item>
+        <item>鼓楼</item>
+    </string-array>
+
+    <!--景点-->
+    <string-array name="search_landscape">//景点3
+        <item>南京博物院</item>
+        <item>秦淮河</item>
+        <item>总统府</item>
+        <item>中山陵</item>
+        <item>玄武湖公园</item>
+        <item>老门东</item>
+        <item>明城墙</item>
+        <item>莫愁湖</item>
+
+    </string-array>
+
+    <!--商圈数据-->
+    <string-array name="search_business">//把商圈删了 把地铁站（交通枢纽放上来）2
+        <item>南京大学鼓楼校区</item>//高校4
+        <item>东南大学四牌楼校区</item>
+        <item>南京艺术学院</item>
+        <item>南京师范大学随园校区</item>
+        <item>河海大学</item>
+        <item>南京理工大学</item>
+        <item>南京林业大学</item>
+        <item>东南大学成贤学院</item>
+    </string-array>
+</resources>

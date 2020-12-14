@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin6"
+        android:layout_marginTop="4dp"
+        android:scaleType="centerCrop" />
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin6"
+        android:layout_marginTop="@dimen/activity_vertical_margin6"
+        android:layout_toRightOf="@+id/iv"
+        android:text="希尔顿酒店"
+        android:textColor="@color/text_black"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin6"
+        android:layout_marginTop="@dimen/activity_vertical_margin4"
+        android:layout_toRightOf="@+id/iv"
+        android:text="270元"
+        android:textColor="@color/text_yellow"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/tv_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_price"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin6"
+        android:layout_marginTop="@dimen/activity_vertical_margin4"
+        android:layout_toRightOf="@+id/iv"
+        android:text="2221条评论"
+        android:textColor="@color/text_gray"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_comments"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin6"
+        android:layout_marginTop="@dimen/activity_vertical_margin4"
+        android:layout_toRightOf="@+id/iv"
+        android:background="@drawable/shape_rect_yellow"
+        android:padding="2dp"
+        android:text="设施好"
+        android:textColor="@color/text_yellow"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/iv"
+        android:background="@color/line_gray" />
+
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">智行南京</string>
+    <string name="title_home">首页</string>
+    <string name="title_serch">搜索</string>
+    <string name="title_my">我的</string>
+    <string name="search_hot">热门搜索</string>
+    <string name="search_business">高校</string>
+    <string name="search_trafic">地铁站</string>
+    <string name="search_landscape">景点</string>
+
+
+</resources>
